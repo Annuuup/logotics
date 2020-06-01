@@ -25,6 +25,8 @@ img{
 @media (max-width:900px){
   img{
     position: static;
+    width:300px;
+    height:300px;
   }
 
 
