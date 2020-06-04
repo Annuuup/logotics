@@ -1,0 +1,172 @@
+body {
+  background: #000000;
+  padding: 0px;
+  margin: 0px;
+}
+
+#ptext {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+}
+
+#portsection{
+  padding-bottom: 0px;
+}
+
+.nav-link {
+  color: #f1d154;
+
+}
+.nav-link:hover{
+  color: white;
+}
+
+.port-img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px;
+}
+
+
+h5, h1 {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 6rem;
+}
+
+h5 {
+  padding-top: 30px;
+}
+
+#titleimg {
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+.uk-animation-fade {
+  animation-duration: 3.5s;
+}
+
+
+
+
+
+.dabbi-series {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 9px;
+}
+
+p {
+  text-align: center;
+  color: #f1d154;
+}
+
+#pone {
+  font-size: 35px;
+  text-align: center;
+  color: #f1d154;
+}
+
+#number {
+  font-size: 23px;
+  text-align: center;
+  color: white;
+}
+
+#kelag-indh {
+  padding: 65px;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+
+
+}
+.col{
+  text-align: center;
+  padding-bottom: 15px;
+}
+#poneicon
+{
+  width: 35px;
+  height: 35px;
+  padding-bottom: 3px;
+
+}
+.footer-div{
+  text-align: center;
+
+}
+button{
+  background-color: #f1d154;
+  color: black;
+  border-radius: 20px;
+  border: none;
+  padding: 7px 14px;
+  font-weight:50px;
+  font-size: 15px;
+
+}
+button:hover{
+  background-color: white;
+  color: black;
+  transition: .8s ease;
+}
+
+
+
+
+                                                  /* Mobile css */
+@media (max-width:900px) {
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 6px;
+  }
+
+  h1, h5 {
+    margin-top: 20px;
+  }
+
+  h5 {
+    color: #f1d154;
+  }
+
+  #titleimg {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #ptext {
+    padding-bottom: 30px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .port-img {
+    padding-bottom: 0;
+  }
+
+  .dabbi-series {
+    letter-spacing: 0px;
+  }
+}
